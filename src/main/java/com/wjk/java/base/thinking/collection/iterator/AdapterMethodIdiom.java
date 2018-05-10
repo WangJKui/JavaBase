@@ -3,11 +3,7 @@ package com.wjk.java.base.thinking.collection.iterator;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
-
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 class ReversibleArrayList<T> extends ArrayList<T>{
 	public ReversibleArrayList(Collection<T> c) {
