@@ -7,8 +7,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.apache.jasper.tagplugins.jstl.core.ForEach;
-
 import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 class ReversibleArrayList<T> extends ArrayList<T>{
