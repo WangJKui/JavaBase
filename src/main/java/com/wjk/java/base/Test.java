@@ -1,5 +1,6 @@
 package com.wjk.java.base;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -41,6 +42,17 @@ public class Test {
 
 //		List<String> asList = Arrays.asList(a);
 //		method(asList);
+		
+		
+		LocalDate localDate = LocalDate.parse("2018-01-27").minusMonths(1).plusDays(1);
+		
+	//	+"-12"+LocalDate.parse("2018-01-27").getDayOfMonth()
+		
+		
+		String startYearDate = LocalDate.parse("2018-12".substring(0, 4)+"-12-26").minusYears(1).plusDays(1).toString();
+		System.out.println(startYearDate);
+
+		System.out.println(localDate.toString());
 	}
 	
 	
